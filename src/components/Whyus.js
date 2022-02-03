@@ -13,7 +13,7 @@ function Whyus() {
         <Grid container spacing={2}>
           {whyus.map((item) => (
             <Grid item xs={3}>
-              <img src={item.url.default} alt="not found"/>
+              <img src={item.url} alt="not found"/>
               <h4>{item.name}</h4>
               <p>{item.description}</p>
             </Grid>
