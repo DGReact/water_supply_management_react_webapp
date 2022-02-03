@@ -3,7 +3,8 @@ import styled from "styled-components";
 import TopNav from "../components/TopNav";
 import Nav from "../components/Nav";
 import Slider from "../components/Slider";
-import OfferSection from "../components/OfferSection";
+// import OfferSection from "../components/OfferSection";
+import Whyus from "../components/Whyus"
 import Heading from "../components/Heading";
 import Products from "../components/Products";
 import Banner from "../components/Banner";
@@ -22,7 +23,8 @@ const Home = () => {
       </Wrapper>
       <Nav />
       <Slider />
-      <OfferSection />
+      {/* <OfferSection /> */}
+      <Whyus/>
       <Heading
         title="FEATURED PRODUCTS"
         para="Explore our best rated Online Ayurvedic Medicines"

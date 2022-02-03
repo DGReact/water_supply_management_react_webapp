@@ -144,3 +144,26 @@ export const branding = [
     url: "./medicine/brand5.svg",
   },
 ]
+
+export const whyus =[
+  {
+    url: "../Image/1.png",
+    name: "Maxium Purity",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte."
+  },
+  {
+    url: "../Image/2.png",
+    name: "Cholorine Free",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte."
+  },
+  {
+    url: "../Image/3.png",
+    name: "Healthy Water",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte."
+  },
+  {
+    url: "../Image/4.png",
+    name: "Maxium Purity",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte."
+  }
+]
