@@ -59,12 +59,12 @@ import '../Components-css/Base.css'
 
 
 function Slider() {
-  var imageName = require('../Image/water-banner.png')   
+  // var imageName = require('../Image/water-banner.png')   
   return <div>
 
 {/* <Grid> */}
   {/* <Grid item xs = "auto"> */}
-  <img src={imageName.default} alt = 'not found' className='image'/>
+  <img src='./Image/water-banner.png' alt = 'not found' className='image'/>
   {/* </Grid> */}
 {/* </Grid> */}
   </div>;

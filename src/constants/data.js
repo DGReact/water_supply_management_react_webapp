@@ -147,12 +147,12 @@ export const branding = [
 
 export const whyus =[
   {
-    url: "./medicine/banner-1.png",
+    url: "./Image/1.png",
     name: "Maxium Purity",
     description: "Lorem ipsum dolor sit amet adipelit sed eiusmte."
   },
   {
-    url: "../Image/2.png",
+    url: "./Image/2.png",
     name: "Cholorine Free",
     description: "Lorem ipsum dolor sit amet adipelit sed eiusmte."
   },
