@@ -10,6 +10,7 @@ import Products from "../components/Products";
 import Banner from "../components/Banner";
 import Branding from "../components/Branding";
 import Footer from "../components/Footer";
+import Newproducts from "../components/Newproducts";
 
 const Wrapper = styled.div`
   border-bottom: 1px solid #dfe6e9;
@@ -25,7 +26,8 @@ const Home = () => {
       <Slider />
       {/* <OfferSection /> */}
       <Whyus/>
-      <Heading
+      <Newproducts/>
+      {/* <Heading
         title="FEATURED PRODUCTS"
         para="Explore our best rated Online Ayurvedic Medicines"
       />
@@ -44,8 +46,8 @@ const Home = () => {
       <Heading
         title="AYURVEDIC PHARMACIES IN INDIA"
         para="Pick our top ayurvedic brands"
-      />
-      <Branding />
+      /> */}
+      {/* <Branding /> */}
       <Footer />
     </>
   );

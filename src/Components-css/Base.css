@@ -7,12 +7,43 @@
     text-align: center;
     font-weight: bold;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: underline;
     font-family: 'Merriweather Sans', sans-serif;
     color: #438C96;
 }
 .image-logo{
-    width: 50%;
+    width: 100%;
     height: 70%;
+}
+.new-product{
+    font-weight: bold;
+    padding: 3rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #438C96;
+}
+.c-head{
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+.card{
+    border: 1px solid black;
+}
+.price{
+    font-weight: bold;
+    color: #438C96;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+.total-price{
+    color: rgb(102, 98, 98);
+    /* padding: 1rem; */
+    text-decoration: line-through;
+}
+.shopping-cart{
+padding: 5%;
 }

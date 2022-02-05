@@ -10,11 +10,11 @@ function Whyus() {
       <Container>
         <h1 className="whyus">WHY CHOOSE US?</h1>
 
-        <Grid container spacing={2}>
+        <Grid container spacing={2} >
           {whyus.map((item) => (
-            <Grid item xs={3}>
+            <Grid item xs={12} md={3} lg={3} sx={{ boxShadow: 3, p:3 }} className="p-4">
               <img src={item.url} alt="not found" className = "image-logo"/>
-              <h4>{item.name}</h4>
+              <h4 className="c-head">{item.name}</h4>
               <p>{item.description}</p>
             </Grid>
           ))}
