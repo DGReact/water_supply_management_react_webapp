@@ -11,6 +11,7 @@ import Banner from "../components/Banner";
 import Branding from "../components/Branding";
 import Footer from "../components/Footer";
 import Newproducts from "../components/Newproducts";
+import Services from "../components/services";
 
 const Wrapper = styled.div`
   border-bottom: 1px solid #dfe6e9;
@@ -27,6 +28,7 @@ const Home = () => {
       {/* <OfferSection /> */}
       <Whyus/>
       <Newproducts/>
+      <Services/>
       {/* <Heading
         title="FEATURED PRODUCTS"
         para="Explore our best rated Online Ayurvedic Medicines"

@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 `;
 const Information = styled.div``;
 const Text = styled.p`
-  color: #dead00;
+  color: #438C96;
   font-weight: 600;
   ${tablet({
     textAlign: "center",
@@ -33,7 +33,7 @@ const List = styled.li`
   color: #fff;
   list-style: none;
   margin-top: 0.5rem;
-  font-size: 14px;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   ${tablet({
     textAlign: "center",
@@ -74,7 +74,7 @@ const Footer = () => {
               <List>Sign In</List>
               <List>Create an Account</List>
               <List>My Account</List>
-              <List>Wishlist</List>
+              {/* <List>Wishlist</List> */}
             </ul>
           </QuickShop>
           <ContactUs>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather+Sans&display=swap');
 .image{
     width: 100%;
     height: 100%;
@@ -30,9 +30,7 @@
     padding: 1rem;
     text-align: center;
 }
-.card{
-    border: 1px solid black;
-}
+
 .price{
     font-weight: bold;
     color: #438C96;
@@ -46,4 +44,44 @@
 }
 .shopping-cart{
 padding: 5%;
+}
+.jumbotron{
+    background-color: #438C96;
+}
+.Text{
+    color: white;
+    /* text-align: center; */
+    /* padding: 5%; */
+    /* margin-top: 8% !important; */
+   
+}
+.Text h1{
+    padding: 3%;
+    text-decoration: underline;
+    font-family: 'Bitter', serif;
+    font-size: 2.5rem;
+    /* text-align: center; */
+    /* margin: 2% !important; */
+}
+.button{
+    background-color: white !important;
+    color: #438C96 !important;
+    font-weight: bold;
+    margin-bottom: 1.5% !important;
+    border-radius:20px !important;
+}
+.button:hover{
+    color: white !important;
+background-color: #438C96 !important;
+}
+.button-lg{
+    font-size: 1.5rem !important;
+    border-radius: 20px !important;
+}
+.card{
+    padding: 2% !important;
+    /* margin: 0.5% !important; */
+}
+.para{
+    padding: 1% !important;
 }
