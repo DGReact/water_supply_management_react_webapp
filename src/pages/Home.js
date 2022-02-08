@@ -5,10 +5,6 @@ import Nav from "../components/Nav";
 import Slider from "../components/Slider";
 // import OfferSection from "../components/OfferSection";
 import Whyus from "../components/Whyus"
-import Heading from "../components/Heading";
-import Products from "../components/Products";
-import Banner from "../components/Banner";
-import Branding from "../components/Branding";
 import Footer from "../components/Footer";
 import Newproducts from "../components/Newproducts";
 import Services from "../components/services";

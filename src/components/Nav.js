@@ -6,6 +6,8 @@ import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutline
 import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import PermIdentityOutlinedIcon from "@material-ui/icons/PermIdentityOutlined";
 import { tablet, mobile } from "../responsiveStyled";
+import { Outlet, Link } from "react-router-dom";
+
 
 
 
@@ -61,16 +63,17 @@ const Text = styled.p`
 
 const Nav = () => {
   return (
-    <Container className="background">
+    <div className="background box-shadow">
+    <Container >
       <Wrapper>
         <LogoSection>
           {/* <Logo src="./medicine/logo.svg" /> */}
           <Text>Water Supply</Text>
         </LogoSection>
         <NavLinks>
-          <Text>HOME</Text>
-          <Text>ABOUT</Text>
-          <Text>PRODUCTS</Text>
+         <Link to="/"> <Text>HOME </Text></Link>
+         <Link to="/services"> <Text>OUR SERVICES</Text></Link>
+         <Link to="/products"> <Text>PRODUCTS</Text></Link>
           <Text>CONTACT US</Text>
         </NavLinks>
         {/* <Search>
@@ -84,7 +87,10 @@ const Nav = () => {
           <PermIdentityOutlinedIcon />
         </UserProfile>
       </Wrapper>
+     
     </Container>
+    {/* <hr/> */}
+    </div>
   );
 };
 
