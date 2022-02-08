@@ -35,6 +35,7 @@
     font-weight: bold;
     padding: 1rem;
     text-align: center;
+    color: black !important;
 }
 
 .price{
@@ -44,12 +45,19 @@
     font-size: 1.1rem;
 }
 .total-price{
-    color: rgb(102, 98, 98);
+    color: rgb(102, 98, 98) !important;
     /* padding: 1rem; */
     text-decoration: line-through;
 }
+.price-discount{
+    color: black !important;
+}
 .shopping-cart{
 padding: 5%;
+color: black !important;
+}
+.des{
+    color: black !important;
 }
 .jumbotron{
     background-color: #438C96;
@@ -145,4 +153,7 @@ background-color: #438C96 !important;
       font-weight: bolder;
       padding: 3%;
       text-decoration: underline;
+  }
+  .link{
+      text-decoration: none;
   }

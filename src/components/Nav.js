@@ -49,17 +49,6 @@ const Text = styled.p`
   Color: #438C96;
   cursor: pointer;
 `;
-// const Input = styled.input`
-//     width: 90%;
-//     height: 40px;
-//     background-color: #EBEBEB;
-//     border: none;
-//     border-radius: 20px;
-//     padding-left: .8rem;
-//     background-image: url('./medicine/search.png');
-//     background-repeat: no-repeat;
-//     background-position: right;
-// `;
 
 const Nav = () => {
   return (
@@ -71,9 +60,9 @@ const Nav = () => {
           <Text>Water Supply</Text>
         </LogoSection>
         <NavLinks>
-         <Link to="/"> <Text>HOME </Text></Link>
-         <Link to="/services"> <Text>OUR SERVICES</Text></Link>
-         <Link to="/products"> <Text>PRODUCTS</Text></Link>
+         <Link to="/" className="link"> <Text>HOME </Text></Link>
+         <Link to="/services" className="link"> <Text>OUR SERVICES</Text></Link>
+         <Link to="/products" className="link"> <Text>PRODUCTS</Text></Link>
           <Text>CONTACT US</Text>
         </NavLinks>
         {/* <Search>

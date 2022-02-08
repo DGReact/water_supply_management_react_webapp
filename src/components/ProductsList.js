@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Outlet, Link } from "react-router-dom";
 import { Container, Button } from "@material-ui/core";
 import "../Components-css/Base.css";
 import { totalproduct } from "../constants/data";
@@ -14,6 +14,7 @@ function ProductsList() {
 <Container>
         <Grid container spacing={2}>
           {totalproduct.map((item) => (
+            
             <Grid
               item
               xs={12}
@@ -22,9 +23,10 @@ function ProductsList() {
               sx={{ boxShadow: 3, p: 3 }}
               className="card"
             >
+               <Link to="/product-detail" className='link'>
               <img src={item.url} alt="not found" className="image-logo" />
               <h4 className="c-head">{item.name}</h4>
-              <p>{item.description}</p>
+              <p className="des">{item.description}</p>
               {/* <div> */}
               <p className="para">
                 <span className="price">Rs {item.price}</span>{" "}
@@ -34,6 +36,7 @@ function ProductsList() {
                   <ShoppingCartIcon />
                 </span>{" "}
               </p>
+              </Link>
             </Grid>
           ))}
         </Grid>

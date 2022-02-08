@@ -4,6 +4,7 @@ import "../Components-css/Base.css";
 import { newproduct } from "../constants/data";
 import Grid from "@mui/material/Grid";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Outlet, Link } from "react-router-dom";
 
 function Newproducts() {
   return (
@@ -21,9 +22,10 @@ function Newproducts() {
               sx={{ boxShadow: 3, p: 3 }}
               className="card"
             >
+               <Link to="/product-detail" className='link'>
               <img src={item.url} alt="not found" className="image-logo" />
               <h4 className="c-head">{item.name}</h4>
-              <p>{item.description}</p>
+              <p className="des">{item.description}</p>
               {/* <div> */}
               <p className="para">
                 <span className="price">Rs {item.price}</span>{" "}
@@ -33,6 +35,7 @@ function Newproducts() {
                   <ShoppingCartIcon />
                 </span>{" "}
               </p>
+              </Link>
               {/* <AccessAlarmIcon/> */}
               {/* </div> */}
             </Grid>
