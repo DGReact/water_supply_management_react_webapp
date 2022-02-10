@@ -1,19 +1,20 @@
-import React from "react";
+import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 import { Container, Button } from "@material-ui/core";
 import "../Components-css/Base.css";
-import { newproduct } from "../constants/data";
+import { totalproduct } from "../constants/data";
 import Grid from "@mui/material/Grid";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { Outlet, Link } from "react-router-dom";
 
-function Newproducts() {
-  return (
-    <div>
-      <Container>
-        <h1 className="new-product">New Products</h1>
-
+function ProductsList() {
+  return <div>
+    <center>
+<h1 className='heading-product'>Our Products</h1>
+</center>
+<Container>
         <Grid container spacing={2}>
-          {newproduct.map((item) => (
+          {totalproduct.map((item) => (
+            
             <Grid
               item
               xs={12}
@@ -36,14 +37,11 @@ function Newproducts() {
                 </span>{" "}
               </p>
               </Link>
-              {/* <AccessAlarmIcon/> */}
-              {/* </div> */}
             </Grid>
           ))}
         </Grid>
       </Container>
-    </div>
-  );
+  </div>;
 }
 
-export default Newproducts;
+export default ProductsList;

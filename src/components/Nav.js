@@ -6,6 +6,8 @@ import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutline
 import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import PermIdentityOutlinedIcon from "@material-ui/icons/PermIdentityOutlined";
 import { tablet, mobile } from "../responsiveStyled";
+import { Outlet, Link } from "react-router-dom";
+
 
 const Wrapper = styled.div`
   width: 100%;
@@ -46,30 +48,20 @@ const Text = styled.p`
   color: #438c96;
   cursor: pointer;
 `;
-// const Input = styled.input`
-//     width: 90%;
-//     height: 40px;
-//     background-color: #EBEBEB;
-//     border: none;
-//     border-radius: 20px;
-//     padding-left: .8rem;
-//     background-image: url('./medicine/search.png');
-//     background-repeat: no-repeat;
-//     background-position: right;
-// `;
 
 const Nav = () => {
   return (
-    <Container className="background">
+    <div className="background box-shadow">
+    <Container >
       <Wrapper>
         <LogoSection>
           <Logo src="./Image/water_logo.png" />
           {/* <Text>Water Supply</Text> */}
         </LogoSection>
         <NavLinks>
-          <Text>HOME</Text>
-          <Text>ABOUT</Text>
-          <Text>PRODUCTS</Text>
+         <Link to="/" className="link"> <Text>HOME </Text></Link>
+         <Link to="/services" className="link"> <Text>OUR SERVICES</Text></Link>
+         <Link to="/products" className="link"> <Text>PRODUCTS</Text></Link>
           <Text>CONTACT US</Text>
         </NavLinks>
         {/* <Search>
@@ -83,7 +75,10 @@ const Nav = () => {
           <PermIdentityOutlinedIcon />
         </UserProfile>
       </Wrapper>
+     
     </Container>
+    {/* <hr/> */}
+    </div>
   );
 };
 

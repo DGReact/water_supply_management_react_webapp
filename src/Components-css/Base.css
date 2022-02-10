@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather+Sans&display=swap');
+.background{
+    padding: 1%;
+}
+.box-shadow{
+    box-shadow: 4px 4px 10px rgb(166, 166, 167);
+}
 .image{
     width: 100%;
     height: 100%;
@@ -29,6 +35,7 @@
     font-weight: bold;
     padding: 1rem;
     text-align: center;
+    color: black !important;
 }
 
 .price{
@@ -38,12 +45,19 @@
     font-size: 1.1rem;
 }
 .total-price{
-    color: rgb(102, 98, 98);
+    color: rgb(102, 98, 98) !important;
     /* padding: 1rem; */
     text-decoration: line-through;
 }
+.price-discount{
+    color: black !important;
+}
 .shopping-cart{
 padding: 5%;
+color: black !important;
+}
+.des{
+    color: black !important;
 }
 .jumbotron{
     background-color: #438C96;
@@ -85,3 +99,61 @@ background-color: #438C96 !important;
 .para{
     padding: 1% !important;
 }
+/* .service{
+    background-image: url("./water.jpeg");
+    background-size: cover;
+    height: 100%;
+} */
+ /* .contain {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 1% !important;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+  .image-slider{
+      width: 100%;
+      height: 100%;
+      /* padding: 2%; */
+  }
+  /* .centered h1{
+      font-size: 5rem;
+  }
+  .centered h4{
+      font-weight: bold;
+      font-size: 2rem;
+  } */
+
+  .heading{
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #438C96;
+  }
+  .button-service{
+      color: white !important;
+      background-color: #438C96 !important;
+      margin: 0.8% !important;
+      border-radius: 20px !important;
+  }
+  .input-field{
+      width: 100% !important;
+  }
+  .heading-form{
+      padding: 5%;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  .heading-product{
+      text-align: center;
+      font-weight: bolder;
+      padding: 3%;
+      text-decoration: underline;
+  }
+  .link{
+      text-decoration: none;
+  }

@@ -234,3 +234,143 @@ export const newproduct =[
 
 
 ]
+
+export const totalproduct =[
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+  {
+    url: "./Image/waterbottle.png",
+    name: "Premium water bottle",
+    description: "Lorem ipsum dolor sit amet adipelit sed eiusmte.",
+    price: '100',
+    totalprice: '150',
+    discount: '30'
+
+  },
+
+
+]

@@ -1,7 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from "styled-components";
 import TopNav from "../components/TopNav";
 import Nav from "../components/Nav";
+import Servicesslider from '../components/Servicesslider';
+import Form from '../components/Form';
 import Footer from '../components/Footer';
 
 const Wrapper = styled.div`
@@ -9,16 +11,16 @@ const Wrapper = styled.div`
 `;
 
 
-const ProductDetails = () =>{
-    return(
-        <>
-            <Wrapper>
+function Ourservices() {
+  return <div>
+       <Wrapper>
         <TopNav />
       </Wrapper>
       <Nav />
+      <Servicesslider/>
+      <Form/>
       <Footer/>
-        </>
-    )
+  </div>;
 }
 
-export default ProductDetails;
+export default Ourservices;

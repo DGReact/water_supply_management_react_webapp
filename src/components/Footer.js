@@ -10,6 +10,7 @@ import { tablet } from "../responsiveStyled";
 const MainContainer = styled.div`
   background-color: #010204;
   padding: 1rem 0;
+  margin-top: 2%;
 `;
 const Wrapper = styled.div`
   display: flex;
