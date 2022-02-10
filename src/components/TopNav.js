@@ -30,22 +30,22 @@ const TopNav = () => {
       <Wrapper>
         <Text>
           <CallIcon />
-          <Span>Call Us: +123-456-790</Span>
+          <Span>Call Us: +91 8972704080</Span>
         </Text>
         <Text>
           <EmailIcon />
-          <Span>Mail: contact.sumitkrdas@gmail.com</Span>
+          <Span>Mail: ghoshdibyendu254@gmail.com</Span>
         </Text>
         <Text>
           <LocationOnIcon />
-          <Span>Kalkata West Bengal</Span>
+          <Span>Calcutta West Bengal</Span>
         </Text>
-        <Text>
+        {/* <Text>
           <LaptopMacIcon />
           <Span>
             You can request appointment (pending confirmation) in 24 hours
           </Span>
-        </Text>
+        </Text> */}
       </Wrapper>
     </Container>
   );

@@ -7,20 +7,18 @@ import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import PermIdentityOutlinedIcon from "@material-ui/icons/PermIdentityOutlined";
 import { tablet, mobile } from "../responsiveStyled";
 
-
-
-
 const Wrapper = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  position: 
 `;
 const LogoSection = styled.div`
   flex: 1;
   cursor: pointer;
-  ${mobile({flex: "2"})}
+  ${mobile({ flex: "2" })}
 `;
 const NavLinks = styled.div`
   // display: flex;
@@ -28,7 +26,7 @@ const NavLinks = styled.div`
   flex: 1;
   display: flex;
   justify-content: space-around;
-  ${tablet({display: "none"})}
+  ${tablet({ display: "none" })}
 `;
 // const Search = styled.div`
 //   flex: 2;
@@ -40,11 +38,12 @@ const UserProfile = styled.div`
   justify-content: space-between;
 `;
 const Logo = styled.img`
-  width: 100px;
+  width: 50px;
+  height: 50px;
 `;
 const Text = styled.p`
   font-weight: 800;
-  Color: #438C96;
+  color: #438c96;
   cursor: pointer;
 `;
 // const Input = styled.input`
@@ -64,8 +63,8 @@ const Nav = () => {
     <Container className="background">
       <Wrapper>
         <LogoSection>
-          {/* <Logo src="./medicine/logo.svg" /> */}
-          <Text>Water Supply</Text>
+          <Logo src="./Image/water_logo.png" />
+          {/* <Text>Water Supply</Text> */}
         </LogoSection>
         <NavLinks>
           <Text>HOME</Text>

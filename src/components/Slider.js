@@ -64,7 +64,7 @@ function Slider() {
 
 {/* <Grid> */}
   {/* <Grid item xs = "auto"> */}
-  <img src='./Image/water-banner.png' alt = 'not found' className='image'/>
+  <img src='./Image/water_banner.png' alt = 'not found' className='image'/>
   {/* </Grid> */}
 {/* </Grid> */}
   </div>;
