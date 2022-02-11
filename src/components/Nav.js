@@ -7,15 +7,17 @@ import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import PermIdentityOutlinedIcon from "@material-ui/icons/PermIdentityOutlined";
 import { tablet, mobile } from "../responsiveStyled";
 import { Outlet, Link } from "react-router-dom";
-
+import ReactDOM from 'react-dom';
 
 const Wrapper = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 0;
-  position: 
+  margin: 0 0;
+  background: red;
+  position: fixed;
+  top: 40;
 `;
 const LogoSection = styled.div`
   flex: 1;
@@ -40,8 +42,8 @@ const UserProfile = styled.div`
   justify-content: space-between;
 `;
 const Logo = styled.img`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 `;
 const Text = styled.p`
   font-weight: 800;
@@ -50,6 +52,11 @@ const Text = styled.p`
 `;
 
 const Nav = () => {
+  varStickyPositioned = 40;
+  window.addEventListener('scroll', (event) => {
+    
+  });
+
   return (
     <div className="background box-shadow">
     <Container >
@@ -61,7 +68,7 @@ const Nav = () => {
         <NavLinks>
          <Link to="/" className="link"> <Text>HOME </Text></Link>
          <Link to="/services" className="link"> <Text>OUR SERVICES</Text></Link>
-         <Link to="/products" className="link"> <Text>PRODUCTS</Text></Link>
+         <Link to="/products" classNam0e="link"> <Text>PRODUCTS</Text></Link>
           <Text>CONTACT US</Text>
         </NavLinks>
         {/* <Search>
@@ -75,7 +82,6 @@ const Nav = () => {
           <PermIdentityOutlinedIcon />
         </UserProfile>
       </Wrapper>
-     
     </Container>
     {/* <hr/> */}
     </div>
