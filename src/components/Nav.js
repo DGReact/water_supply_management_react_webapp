@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Container } from "@material-ui/core";
 import { Badge } from "@material-ui/core";
@@ -7,7 +7,7 @@ import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import PermIdentityOutlinedIcon from "@material-ui/icons/PermIdentityOutlined";
 import { tablet, mobile } from "../responsiveStyled";
 import { Outlet, Link } from "react-router-dom";
-import ReactDOM from 'react-dom';
+import "../Components-css/Base.css";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   margin: 0 0;
   background: red;
   position: fixed;
-  top: 40;
+  left: 0;
 `;
 const LogoSection = styled.div`
   flex: 1;
@@ -52,38 +52,52 @@ const Text = styled.p`
 `;
 
 const Nav = () => {
-  varStickyPositioned = 40;
-  window.addEventListener('scroll', (event) => {
-    
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
   });
+  const isSticky = (e) => {
+    var header = document.querySelector(".navBarContainer");
+    window.scrollY > 100
+      ? header.classList.add("stickyNav")
+      : header.classList.remove("stickyNav");
+  };
 
   return (
-    <div className="background box-shadow">
-    <Container >
-      <Wrapper>
-        <LogoSection>
-          <Logo src="./Image/water_logo.png" />
-          {/* <Text>Water Supply</Text> */}
-        </LogoSection>
-        <NavLinks>
-         <Link to="/" className="link"> <Text>HOME </Text></Link>
-         <Link to="/services" className="link"> <Text>OUR SERVICES</Text></Link>
-         <Link to="/products" classNam0e="link"> <Text>PRODUCTS</Text></Link>
-          <Text>CONTACT US</Text>
-        </NavLinks>
-        {/* <Search>
+    <div className="background box-shadow stickyNav">
+      <Container>
+        <Wrapper className="navBarContainer">
+          <LogoSection>
+            <Logo src="./Image/water_logo.png" />
+            {/* <Text>Water Supply</Text> */}
+          </LogoSection>
+          <NavLinks>
+            <Link to="/" className="link">
+              {" "}
+              <Text>HOME </Text>
+            </Link>
+            <Link to="/services" className="link">
+              {" "}
+              <Text>OUR SERVICES</Text>
+            </Link>
+            <Link to="/products" classNam0e="link">
+              {" "}
+              <Text>PRODUCTS</Text>
+            </Link>
+            <Text>CONTACT US</Text>
+          </NavLinks>
+          {/* <Search>
           <Input placeholder="Search  for items..." />
         </Search> */}
-        <UserProfile>
-          <FavoriteBorderOutlinedIcon />
-          <Badge badgeContent={4} color="primary">
-            <LocalMallOutlinedIcon />
-          </Badge>
-          <PermIdentityOutlinedIcon />
-        </UserProfile>
-      </Wrapper>
-    </Container>
-    {/* <hr/> */}
+          <UserProfile>
+            <FavoriteBorderOutlinedIcon />
+            <Badge badgeContent={4} color="primary">
+              <LocalMallOutlinedIcon />
+            </Badge>
+            <PermIdentityOutlinedIcon />
+          </UserProfile>
+        </Wrapper>
+      </Container>
+      {/* <hr/> */}
     </div>
   );
 };

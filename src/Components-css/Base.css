@@ -157,3 +157,10 @@ background-color: #438C96 !important;
   .link{
       text-decoration: none;
   }
+
+.stickyNav{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
