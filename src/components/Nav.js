@@ -15,9 +15,6 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 0;
-  background: red;
-  position: fixed;
-  top: 40;
 `;
 const LogoSection = styled.div`
   flex: 1;
@@ -52,10 +49,6 @@ const Text = styled.p`
 `;
 
 const Nav = () => {
-  varStickyPositioned = 40;
-  window.addEventListener('scroll', (event) => {
-    
-  });
 
   return (
     <div className="background box-shadow">
