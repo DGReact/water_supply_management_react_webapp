@@ -1,110 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather+Sans&display=swap');
-.background{
-    padding: 1%;
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather+Sans&display=swap");
+.background {
+  padding: 1%;
 }
-.box-shadow{
-    box-shadow: 4px 4px 10px rgb(166, 166, 167);
+.box-shadow {
+  box-shadow: 4px 4px 10px rgb(166, 166, 167);
 }
-.image{
-    width: 100%;
-    height: 100%;
+.image {
+  width: 100%;
+  height: 100%;
 }
-.whyus{
-    text-align: center;
-    font-weight: bold;
-    padding: 2rem;
-    font-size: 2rem;
-    text-decoration: underline;
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #438C96;
+.custom-text {
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #438c96;
 }
-.image-logo{
-    width: 100%;
-    height: 70%;
+.image-logo {
+  width: 100%;
+  height: 70%;
 }
-.new-product{
-    font-weight: bold;
-    padding: 3rem;
-    font-size: 2rem;
-    text-decoration: underline;
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #438C96;
+.container-item {
+  height: 200px;
+  box-shadow: 0px 0px 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  overflow: visible;
+  align-items: center;
+  justify-content: center;
 }
-.c-head{
-    font-size: large;
-    font-weight: bold;
-    padding: 1rem;
-    text-align: center;
-    color: black !important;
+.custom-text1 {
+  font-weight: bold;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #438c96;
 }
-
-.price{
-    font-weight: bold;
-    color: #438C96;
-    padding: 0.5rem;
-    font-size: 1.1rem;
+.container-item-head {
+  font-weight: bold;
+  text-align: center;
+  color: black !important;
 }
-.total-price{
-    color: rgb(102, 98, 98) !important;
-    /* padding: 1rem; */
-    text-decoration: line-through;
+.container-item-head {
+  text-align: center;
+  justify-content: center;
+  color: black !important;
 }
-.price-discount{
-    color: black !important;
+.price {
+  font-weight: bold;
+  color: #438c96;
+  padding: 0.5rem;
+  font-size: 1.1rem;
 }
-.shopping-cart{
-padding: 5%;
-color: black !important;
+.total-price {
+  color: rgb(102, 98, 98) !important;
+  /* padding: 1rem; */
+  text-decoration: line-through;
 }
-.des{
-    color: black !important;
+.price-discount {
+  color: black !important;
 }
-.jumbotron{
-    background-color: #438C96;
+.shopping-cart {
+  padding: 5%;
+  color: black !important;
 }
-.Text{
-    color: white;
-    /* text-align: center; */
-    /* padding: 5%; */
-    /* margin-top: 8% !important; */
-   
+.des {
+  color: black !important;
 }
-.Text h1{
-    padding: 3%;
-    text-decoration: underline;
-    font-family: 'Bitter', serif;
-    font-size: 2.5rem;
-    /* text-align: center; */
-    /* margin: 2% !important; */
+.jumbotron {
+  background-color: #438c96;
 }
-.button{
-    background-color: white !important;
-    color: #438C96 !important;
-    font-weight: bold;
-    margin-bottom: 1.5% !important;
-    border-radius:20px !important;
+.Text {
+  color: white;
+  /* text-align: center; */
+  /* padding: 5%; */
+  /* margin-top: 8% !important; */
 }
-.button:hover{
-    color: white !important;
-background-color: #438C96 !important;
+.Text h1 {
+  padding: 3%;
+  text-decoration: underline;
+  font-family: "Bitter", serif;
+  font-size: 2.5rem;
+  /* text-align: center; */
+  /* margin: 2% !important; */
 }
-.button-lg{
-    font-size: 1.5rem !important;
-    border-radius: 20px !important;
+.button {
+  background-color: white !important;
+  color: #438c96 !important;
+  font-weight: bold;
+  margin-bottom: 1.5% !important;
+  border-radius: 20px !important;
 }
-.card{
-    padding: 2% !important;
-    /* margin: 0.5% !important; */
+.button:hover {
+  color: white !important;
+  background-color: #438c96 !important;
 }
-.para{
-    padding: 1% !important;
+.button-lg {
+  font-size: 1.5rem !important;
+  border-radius: 20px !important;
+}
+.card {
+  padding: 2% !important;
+  /* margin: 0.5% !important; */
+}
+.para {
+  padding: 1% !important;
 }
 /* .service{
     background-image: url("./water.jpeg");
     background-size: cover;
     height: 100%;
 } */
- /* .contain {
+/* .contain {
     position: relative;
     text-align: center;
     color: white;
@@ -116,12 +126,12 @@ background-color: #438C96 !important;
     left: 50%;
     transform: translate(-50%, -50%);
   } */
-  .image-slider{
-      width: 100%;
-      height: 100%;
-      /* padding: 2%; */
-  }
-  /* .centered h1{
+.image-slider {
+  width: 100%;
+  height: 100%;
+  /* padding: 2%; */
+}
+/* .centered h1{
       font-size: 5rem;
   }
   .centered h4{

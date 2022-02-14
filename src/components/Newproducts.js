@@ -10,7 +10,7 @@ function Newproducts() {
   return (
     <div>
       <Container>
-        <h1 className="new-product">New Products</h1>
+        <h1 className="custom-text1">New Products</h1>
 
         <Grid container spacing={2}>
           {newproduct.map((item) => (

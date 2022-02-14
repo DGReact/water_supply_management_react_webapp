@@ -9,17 +9,16 @@ import ProductDetails from "./pages/ProductDetails";
 function App() {
   // return  <Home />;
   return (
-  // <Ourservices/>
-  <BrowserRouter>
+    // <Ourservices/>
+    <BrowserRouter>
       <Routes>
-          <Route exact path="/services" element={<Ourservices />} />
-          <Route exact path="/products" element={<Products/>} />
-          <Route exact path="/products-details" element={<ProductDetails/>} />
-          <Route path="/" element={<Home />}>
-        </Route>
+        <Route exact path="/services" element={<Ourservices />} />
+        <Route exact path="/products" element={<Products />} />
+        <Route exact path="/products-details" element={<ProductDetails />} />
+        <Route path="/" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
