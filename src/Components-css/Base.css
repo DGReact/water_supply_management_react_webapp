@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather+Sans&display=swap");
 .background {
-  padding: 1%;
+  padding: 10px 0;
+  background: white;
+  position: relative;
 }
 .box-shadow {
   box-shadow: 4px 4px 10px rgb(166, 166, 167);
@@ -18,19 +20,33 @@
   color: #438c96;
 }
 .image-logo {
-  width: 100%;
+  width: 50%;
   height: 70%;
+  align-items: center;
+  justify-content: center;
+  /* @media (max-width: 768px) {
+    width: 20px;
+    height: 50%;
+  }
+  @media (max-width:  480px) {
+    width: 20px;
+    height: 50%;
+  } */
 }
 .container-item {
   height: 200px;
-  box-shadow: 0px 0px 20px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  overflow: visible;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  text-align: center;
 }
 .custom-text1 {
   font-weight: bold;
@@ -39,7 +55,20 @@
   font-family: "Merriweather Sans", sans-serif;
   color: #438c96;
 }
-.container-item-head {
+@media (max-width: 768px) {
+  .custom-text1 {
+    font-size: 1rem;
+  }
+  .custom-text {
+    font-size: 1rem;
+  }
+}
+/* @media (max-width: 480px) {
+  .custom-text1 {
+    font-size: 1rem;
+  }
+} */
+/* .container-item-head {
   font-weight: bold;
   text-align: center;
   color: black !important;
@@ -48,7 +77,7 @@
   text-align: center;
   justify-content: center;
   color: black !important;
-}
+} */
 .price {
   font-weight: bold;
   color: #438c96;
@@ -139,38 +168,76 @@
       font-size: 2rem;
   } */
 
-  .heading{
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #438C96;
-  }
-  .button-service{
-      color: white !important;
-      background-color: #438C96 !important;
-      margin: 0.8% !important;
-      border-radius: 20px !important;
-  }
-  .input-field{
-      width: 100% !important;
-  }
-  .heading-form{
-      padding: 5%;
-      font-weight: bold;
-      text-decoration: underline;
-  }
-  .heading-product{
-      text-align: center;
-      font-weight: bolder;
-      padding: 3%;
-      text-decoration: underline;
-  }
-  .link{
-      text-decoration: none;
-  }
-
-.stickyNav{
-    position: fixed;
-    top: 0;
-    width: 100%
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #438c96;
+}
+.button-service {
+  color: white !important;
+  background-color: #438c96 !important;
+  margin: 0.8% !important;
+  border-radius: 20px !important;
+}
+.input-field {
+  width: 100% !important;
+}
+.heading-form {
+  padding: 5%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.heading-product {
+  text-align: center;
+  font-weight: bolder;
+  padding: 3%;
+  text-decoration: underline;
+}
+.link {
+  text-decoration: none;
 }
 
+/* ----------WHY CHOOSE US---------- */
+.why-us-card-text1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.why-us-card-text2 {
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  /* overflow: scroll; */
+}
+.stickyNav {
+  position: fixed;
+  top: 0;
+  z-index: 16;
+  width: 100%;
+}
+.nav-bar-batch {
+  background-color: aqua;
+  /* width: 60px; */
+  padding: 2px 4px;
+  height: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+.nav-bar-element {
+  width: 50%;
+  /* padding: 2px 4px;
+  height: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 800; */
+}
